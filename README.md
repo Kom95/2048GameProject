@@ -9,7 +9,7 @@ docker build -t 2048-game .
 docker run -d --name 2048-game -p 8081:80 2048-game
 ```
 
-Then open http://SERVER-IP:8080
+Then open http://EC2 PUBLIC SERVER-IP:8081
 
 ## CI practice
 
